@@ -13,6 +13,7 @@ body {
 	text-align: center;
 	display: flex 1fr;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .Header p {
@@ -27,6 +28,41 @@ body {
 	margin-left: 35vw;
 }
 
+.Mesi {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.Harta {
+	flex: 1;
+}
+
+.titulli {
+	margin-left: 20%;
+}
+
+.Button {
+	width: 50%;
+	background-color: #333;
+	border: none;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.Button:hover {
+	background-color: #6e1919;
+}
+
+.Pershkrimi {
+	flex: 1;
+}
+
+.Pershkrimi h3 {
+	padding-bottom: 10px;
+}
+
 svg {
 	width: 100%;
 }
@@ -36,13 +72,50 @@ path:hover {
 	cursor: pointer;
 }
 
-.Pershkrimi {
-	text-align: center;
-	display: flex 1fr;
-
+.Footer {
+	display: flex;
+	background: #222;
+	width: 100%;
+	text-decoration: none;
 }
 
-#vendbanimi {
-	margin: 0 10% 0 10%;
+.Footer h1 {
 	padding-bottom: 20px;
+	color: #eee;
+}
+
+.Footer div {
+	padding-top: 20px;
+	margin-left: 250px;
+	flex: 1;
+}
+
+.Footer p {
+	color: white;
+	padding: 2px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #6e1919;
+}
+
+@media only screen and (max-width: 600px) {
+	.Mesi {
+		display: block;
+	}
+	.Footer {
+		display: block;
+		padding: 0;
+	}
+	.Footer div {
+		text-align: center;
+		margin: 100px;
+		padding: 0;
+	}
 }
