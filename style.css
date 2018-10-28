@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+* {
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #eee;
+}
+
+.Header {
+	text-align: center;
+	display: flex 1fr;
+	padding-top: 20px;
+}
+
+.Header p {
+	margin-left: 13%;
+	width: 70%;
+	text-align: center;
+}
+
+.Header .Logo {
+	margin: 0;
+	width: 30%;
+	margin-left: 35vw;
+}
+
+svg {
+	width: 100%;
+}
+
+path:hover {
+	fill: #6e1919;
+	cursor: pointer;
+}
+
+.Pershkrimi {
+	text-align: center;
+	display: flex 1fr;
+
+}
+
+#vendbanimi {
+	margin: 0 10% 0 10%;
+	padding-bottom: 20px;
+}
