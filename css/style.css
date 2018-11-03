@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+body {
+	background-color: #eee;
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.Header {
+	align-items: center;
+	text-align: center;
+	background: #3b404d;
+	padding-bottom: 20px;
+	color: #eee;
+	background-image: url(../img/Cover.jpg);
+	background-size: cover;
+	background-blend-mode: overlay;
+}
+
+.Header p {
+}
+
+.Header .Logo {
+	text-align: center;
+	align-items: center;
+	width: 30%;
+	margin-left: 35vw;
+}
+
+.Mesi {
+	align-items: center;
+	text-align: center;
+	background: url(../img/WhiteBackground.jpg);
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+svg {
+	width: 100%;
+}
+
+path:hover {
+	fill: #005f5f;
+	cursor: pointer;
+}
+
+button {
+	background: #3e1010;
+	padding: 8px;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #005f5f;
+}
+
+.Footer {
+	background: #222 url(../img/bota.jpg);
+	background-blend-mode: overlay;
+	background-size: cover;
+	color: #fff;
+	padding: 2px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	text-align: center;
+}
+
+.Footer h1 {
+	color: #eee
+}
+
+.Footer a {
+	color: #eee;
+	text-decoration: none;
+}
+
+.Footer a:hover {
+	color: #6e1919;
+}
+
+@media only screen and (max-width: 600px){ 
+    .Mesi {
+    	display: grid;
+    	grid-template-columns: 1fr;
+    }
+    .Footer {
+    	display: grid;
+    	grid-template-columns: 1fr;
+    }
+}
+
+.Ballina {
+	background: #222 url(../img/bota.jpg);
+	background-blend-mode: multiply;
+	background-size: cover;
+
+	color: #eee;
+}
+
+.Ballina h1 {
+	text-align: center;
+	align-items: center;
+}
+
+.Ballina p {
+	text-align: center;
+	align-items: center;
+}
+
+.Ballina svg {
+	width: 50%;
+	margin-left: 25vw;
+}
+
+.Ballina path {
+	fill: #222;
+}
+
+
+.Ballina path:hover {
+	fill: #005f5f;
+}
+
+.Ballina h2 {
+	text-align: center;
+	align-items: center;
+}
+
+/* NAVBAR */
+ .nav ul {
+  list-style: none;
+  background-color: #111;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+ .nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .2s background-color;
+}
+ 
+ .nav a:hover {
+  background-color: #005f5f;
+
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
