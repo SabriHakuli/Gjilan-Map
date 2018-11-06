@@ -181,3 +181,14 @@ body {
 .Footer a:hover {
 	color: #005f5f;
 }
+
+@media only screen and (max-width: 600px) {
+	.Footer {
+	display: grid;
+	grid-template-columns: 1fr;
+	}
+	.Mesi {
+	display: grid;
+	grid-template-columns: 1fr;
+	}
+}
