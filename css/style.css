@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .Ballina {
 	width: 100vw;
 	height: 100%;
@@ -11,7 +15,6 @@
 	background: url(../img/bota.jpg) no-repeat fixed center;
 	background-size: cover;
 	background-blend-mode: multiply;
-	font-family: 'Roboto', sans-serif;
 }
 
 /* NAVBAR */
@@ -96,4 +99,85 @@
 	.Footer h2 {
 		font-size: 1em;
 	}
+}
+
+/* Qyteti */
+
+.Header2 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	background: url(../img/Cover.jpg) no-repeat  center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.Header2 .Logo {
+	width: 100%;
+	padding-top: 20px; 
+}
+
+.Header2 .Paragraf {
+	padding: 10px;
+}
+
+.Mesi {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: url(../img/WhiteBackground.jpg) no-repeat  center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.Mesi .Harta .Titulli {
+	text-align: center;
+}
+
+.Mesi .Harta .Titulli button {
+	background: #333;
+	border: none;
+	padding: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.Mesi .Harta .Titulli button:hover {
+	background: #005f5f;
+}
+
+.Mesi .Harta path {
+	cursor: pointer;
+}
+
+.Mesi .Harta path:hover {
+	cursor: pointer;
+	fill: #005f5f;
+}
+
+.Mesi .Pershkrimi {
+	padding: 20px;
+}
+
+.Footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #3b404d;
+	background: url(../img/bota.jpg) no-repeat fixed center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.Footer a {
+	text-decoration: none;
+	color: #eee;
+	line-height: 2em;
+}
+
+.Footer a:hover {
+	color: #005f5f;
 }
