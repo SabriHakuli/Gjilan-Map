@@ -183,6 +183,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+	.Header2 {
+		height: 100vh;
+	}
 	.Footer2 {
 	display: grid;
 	grid-template-columns: 1fr;
